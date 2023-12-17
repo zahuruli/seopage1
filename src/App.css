@@ -1,0 +1,40 @@
+.main_div{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+}
+
+.nav_bar{
+  background-color: #003e42;
+  height: 5%;
+  width: 100%;
+}
+.nav_bar>h2{
+color: goldenrod;
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+margin-left: 3vw;
+
+}
+.table_div{
+  background-color: rgb(236, 235, 236);
+  height: 47.5%;
+  width: 100%;
+}
+
+.antd_table.columns{
+
+resize: both;
+}
+
+.chart_div{
+  background-color: rgb(236, 235, 236);
+  height: 47.5%;
+  width: 100%;
+
+}
